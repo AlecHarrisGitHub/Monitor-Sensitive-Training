@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.DS_Store
+
+# Virtualenvs / conda
+.venv/
+venv/
+env/
+.conda/
+
+# Local experiment outputs / datasets (generated)
+gsm_runs/
+mst_gsm_poc_runs/
+**/hint_cache.jsonl
+**/train_dataset*.jsonl
+**/val_dataset*.jsonl
+**/eval_dataset*.jsonl
+**/dataset_preview.md
+**/dataset_preview.json
+
+# Logs
+slurm-*.out
+slurm-*.err
